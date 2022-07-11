@@ -1,0 +1,128 @@
+
+
+html {
+    font-size: 62.5%;
+    font-family: "Roboto", serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    height: 402px;
+    background: url(../img/bg-repeat.jpg) center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .text-info{
+    max-width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .text-info h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    margin-left: 10px;
+}
+
+.container .text-info p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-right: 90px;
+    margin-left: 20px;
+}
+
+.form-input {
+    width: 340px;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-input .required {
+    position: absolute;
+    color: #f52e2e;
+    font-size: 0.8rem;
+    align-self: flex-start;
+    margin-left: 25px;
+}
+
+.form-input .required.name {
+    top: 70px;
+}
+
+.form-input .required.email {
+    top: 125px;
+}
+
+.form-input .required.phone {
+    top: 180px;
+}
+
+.form-input .required.message {
+    top: 300px;
+}
+
+.form-input input {
+    color: #a8a8a8;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 298px;
+    height: 35px;
+}
+
+.form-input .placeholder {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.form-input .placeholder.message {
+    height: 100px;
+    padding-bottom: 70px;
+}
+
+.form-img {
+    width: 340px;
+    height: 378px;
+    background-color: #fff;
+}
+
+.form-input span {
+    align-self: flex-start;
+    margin: 10px 15px;
+    font-size: 1.5rem;
+}
+
+.form-input a {
+    width: 298px;
+    height: 41px;
+    background-color: #3ccc87;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
